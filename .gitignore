@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Production output
+dist/
+.vite/
+
+# Local environment and editor files
+*.local
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Test-generated artifacts
+test-results/
+playwright-report/
+tests/screenshots/
+tests/*.pdf
+
+# Standalone capture artifacts
+/virion-*.png
+
+# Logs
+*.log
+npm-debug.log*
